@@ -87,3 +87,40 @@ body {
     width: 100%;
     margin-top: 4rem;
 }
+
+.midnight-party-container{
+    display: flex;
+    gap: 2rem;
+}
+
+.midnight-party-content a{
+    text-decoration: none;
+}
+
+.midnight-party-btn{
+    display: block;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.midnight-party-btn:hover {
+    background-color: #0056b3;
+}
+
+.midnight-party-content{
+    text-align: left;
+    padding: 2rem;
+    color: #fff;
+}
+
+.midnight-party-image img{
+    width: 320px;
+    height: 350px;  
+    padding: 2rem; 
+}
