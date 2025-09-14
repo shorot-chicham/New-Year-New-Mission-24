@@ -50,3 +50,40 @@ body {
     text-align: center;
     margin-top: 6rem;
 }
+
+/* holyday deals container styles start here  */
+.holyday-deals-content {
+    text-align: center;
+}
+
+.holyday-deals-title {
+    font-size: 4rem;
+    color: #FF5733;
+    margin-bottom: 10px;
+}
+
+.holyday-deals-description{
+    color: #ff0000;
+    font-size: 29;
+    font-weight: 397;
+}
+
+.holyday-deals-subtitle{
+    font-size: 2rem;
+    color: #333;
+}
+
+.shop-now:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+/* Midnight party container styles start here   */
+.midnight-party-container{
+    background-image: url('/resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    width: 100%;
+    margin-top: 4rem;
+}
