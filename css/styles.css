@@ -252,3 +252,87 @@ body {
     transform: scale(1.1);
     transition: 0.3s;
 }
+
+/* Holydays sales container styles start here */
+
+.holydays-sales-container{
+    background: linear-gradient(to top, #eeddc1, #eed7a3, #eed285, #eecf67, #eecb49);
+    border: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 0.5rem;
+    gap: 2rem;
+    margin-top: 4rem;
+    padding: 2rem;
+}
+
+.holydays-text{
+    color: #ff0000;
+}
+
+.holydays-sales-btn{
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.holydays-sales-btn:hover {
+    background-color: #0056b3;
+} 
+
+/* holydays sales banner container styles end here  */
+
+.holydays-sales-banner-container{
+    background-image: url('/resources/Rectangle 2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    display: flex;
+    justify-content: space-between;
+    gap: 11.8rem;
+    flex-wrap: wrap;
+    margin: 1rem;
+    height: 600px;
+    width: 850px;
+    position: absolute;
+}
+
+.holydays-sales-banner-image img{
+    width: auto;
+    height: 300px;
+    position: relative;
+    bottom: 2rem;
+    left: 2rem;
+    top: 14rem;
+}
+
+.holydays-sales-banner-image{
+    position: relative;
+    bottom: 2rem;
+    left: 2rem;
+    top: 2rem;
+}
+
+.holydays-sales-banner img{
+    width: 300px;
+    height: auto;
+    position: relative;
+    bottom: 2rem;    
+    top: 9.4rem;
+}
+
+.holydays-sales-discount-image{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 4rem; 
+    top: 16rem;
+    left: 34rem;
+}
