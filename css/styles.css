@@ -171,3 +171,84 @@ body {
 .party-time-btn:hover {
     background-color: #0056b3;
 }
+
+/* coming soon container styles start here */
+
+.coming-soon-container{
+    background: linear-gradient(to top, #d7e8ee, #d0e6ee, #c2e3ee, #b4e1ee, #a7dfee);
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 0.5rem;
+    gap: 2rem;
+    margin-top: 4rem;
+    padding: 2rem;
+}
+
+.coming-soon-content{
+    text-align: left;
+    width: 100%;
+}
+
+.coming-soon-content-title{
+    color: #070211;
+    font-size: 60;
+    font-weight: 328;
+}
+
+.coming-soon-content a{
+    text-decoration: none;
+
+}
+
+.coming-soon-subtitle{
+    font-size: 29;
+    font-weight: 207;
+    color: #ff0000;
+}
+
+
+.coming-soon-btn{
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.coming-soon-btn:hover {
+    background-color: #0056b3;
+}
+
+.coming-soon-image img{
+    width: 240px;
+    height: auto;  
+    padding: 2rem;
+    border: 1rem solid #ff0000; 
+    border-radius: 50%;
+}
+
+.coming-soon-image img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.coming-soon-sub-content-title{
+    color: #ff0000;
+    font-size: 58;
+    font-weight: 126;
+}
+
+.coming-soon-sub-content img{
+    width: auto;
+    height: auto;  
+}
+
+.coming-soon-sub-content img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
