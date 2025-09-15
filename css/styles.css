@@ -73,8 +73,8 @@ body {
     color: #333;
 }
 
-.shop-now:hover {
-    opacity: 0.5;
+#shop-now:hover {
+    transform: scale(1.05);
     transition: 0.3s;
 }
 
@@ -123,4 +123,51 @@ body {
     width: 320px;
     height: 350px;  
     padding: 2rem; 
+}
+
+.midnight-party-image img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* Party time at midnight styles and here  */
+
+.party-time-container{
+    background:linear-gradient( to top, #eed7d7, #eed7d0, #eec9c2, #eebbb4, #eeada7 )
+  ;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.party-time-container:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+.party-time-text{
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.party-time-text a{
+    text-decoration: none;
+}
+
+.party-time-btn{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.party-time-btn:hover {
+    background-color: #0056b3;
 }
