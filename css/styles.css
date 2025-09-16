@@ -289,6 +289,10 @@ body {
 
 /* holydays sales banner container styles end here  */
 
+.holydays-sales-banner-section{
+    /* margin: ; */
+}
+
 .holydays-sales-banner-container{
     background-image: url('/resources/Rectangle 2.png');
     background-repeat: no-repeat;
@@ -302,6 +306,8 @@ body {
     height: 600px;
     width: 850px;
     position: absolute;
+    overflow: hidden;
+    z-index: -1;
 }
 
 .holydays-sales-banner-image img{
@@ -311,6 +317,7 @@ body {
     bottom: 2rem;
     left: 2rem;
     top: 14rem;
+    z-index: -1;
 }
 
 .holydays-sales-banner-image{
@@ -318,6 +325,7 @@ body {
     bottom: 2rem;
     left: 2rem;
     top: 2rem;
+    z-index: -1;
 }
 
 .holydays-sales-banner img{
@@ -326,6 +334,7 @@ body {
     position: relative;
     bottom: 2rem;    
     top: 9.4rem;
+    z-index: -1 ;
 }
 
 .holydays-sales-discount-image{
@@ -335,4 +344,53 @@ body {
     bottom: 4rem; 
     top: 16rem;
     left: 34rem;
+    z-index: -1;
+}
+
+
+/* best gifts container styles start here  */
+.best-gifts-container{
+    background: linear-gradient(to top, #d7f0e8, #d0ede6, #c2ebe4, #b4e8e2, #a7e6e0);
+    border: none;
+    text-align: left;
+    border-radius: 0.5rem;
+    margin-top: 37rem;
+    padding: 2rem;
+}
+
+.best-gifts-content a{
+    text-decoration: none;
+}
+
+.best-gifts-btn{
+    display: block;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.best-gifts-btn:hover {
+    background-color: #0056b3;
+}
+
+.best-gifts-image{
+    margin: 2rem 0rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+}
+
+.best-gifts-image img{
+    width: 100%;
+    height: 300px;
+}
+
+.best-gifts-image img:hover {
+    transform: scale(1.3);
+    transition: 0.3s;
 }
