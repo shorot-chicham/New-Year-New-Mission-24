@@ -1,9 +1,17 @@
 /* css file for styles */
 body {
     font-family: Arial, sans-serif;
-    margin: 4rem;
+    
     padding: 0;
     background-color: #f4f4f4;
+}
+
+header{
+    margin: 4rem;
+}
+
+main{
+    margin: 4rem;
 }
 
 /* banner container styles start  */
@@ -289,9 +297,9 @@ body {
 
 /* holydays sales banner container styles end here  */
 
-.holydays-sales-banner-section{
-    /* margin: ; */
-}
+/* .holydays-sales-banner-section{
+     margin: ;
+} */
 
 .holydays-sales-banner-container{
     background-image: url('/resources/Rectangle 2.png');
@@ -434,4 +442,35 @@ body {
 
 .subscribe-btn:hover {
     background-color: #0056b3;
+}
+
+
+/* footer container styles start here  */
+
+.footer-container{
+    background-color: #070211;
+    margin: 0 !important;
+    padding: 1rem;
+}
+
+.address-content{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 3rem;
+}
+
+.site-links{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.right-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    color: white;
+    margin: 4rem;
 }
