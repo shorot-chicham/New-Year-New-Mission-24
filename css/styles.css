@@ -595,9 +595,6 @@ main{
         width: auto;
     }
 
-    .subscribe-container {
-    }
-
     .subscribe-form input[type="email"],
     .subscribe-btn {
         font-size: 1rem;
