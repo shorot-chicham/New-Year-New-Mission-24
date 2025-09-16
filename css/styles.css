@@ -394,3 +394,44 @@ body {
     transform: scale(1.3);
     transition: 0.3s;
 }
+
+
+/* subscribe container styles start here  */
+
+.subscribe-container{
+    background: linear-gradient(to top, #f0d7e8, #ede0e6, #ebe2e4, #e8e4e2, #e6e6e0);
+    border: none;
+    text-align: center;
+    border-radius: 0.5rem;
+    margin-top: 4rem;
+    padding: 6rem;
+}
+
+.subscribe-form input[type="email"]{
+    padding: 1rem;
+    border-top-left-radius: 4rem;
+    border-bottom-left-radius: 4rem;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.subscribe-form input[type="email"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.subscribe-btn{
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-top-right-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.subscribe-btn:hover {
+    background-color: #0056b3;
+}
